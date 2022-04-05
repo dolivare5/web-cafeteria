@@ -1,0 +1,23 @@
+{
+  "name": "10-cafeteria",
+  "version": "1.0.0",
+  "description": "Practicando SASS, gulp, CSS Grid y mucho más",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deiber Olivares",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.12",
+    "sass": "^1.49.11"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
