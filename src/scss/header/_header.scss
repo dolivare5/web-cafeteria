@@ -1,56 +1,56 @@
 @use '../base/variables' as v;
 @use "../base/mixins" as m;
 .header{
-  padding: 5rem 0;
-  position: relative;
-  height: 100vh;
-  @include m.tablet{
-      height: 80rem;
-  }
-
-  &::before{
-    content:'';
-    background-color: v.$negro;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: .6;
-  }
-
-  .contenido-header{
-    height: 100vh;
+    padding: 5rem 0;
     position: relative;
-    width: 90%;
-    margin: 0 auto;
-
+    height: 100vh;
     @include m.tablet{
-        height: 70rem;
+        height: 80rem;
     }
 
-    @include m.desktop{
-      max-width: 120rem;
-      margin: 0 auto;
+    &::before{
+        content:'';
+        background-color: v.$negro;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: .6;
     }
 
-    .texto-header{
-      @include m.tablet{
-        margin-top: 15rem;
-      }
-    }
+    .contenido-header{
+        height: 100vh;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+
+        @include m.tablet{
+            height: 70rem;
+        }
+
+        @include m.desktop{
+            max-width: 120rem;
+            margin: 0 auto;
+        }
+
+        .texto-header{
+            @include m.tablet{
+              margin-top: 15rem;
+            }
+        }
 
     h1{
-      max-width: 90%;
-      margin: 5rem auto;
-      text-align: center;
-      color: v.$blanco;
-      text-transform: uppercase;
-      font-size: 2.8rem;
-      @include m.tablet{
-          margin-top: 5rem;
-          font-size: 4rem;
-      }
+        max-width: 90%;
+        margin: 3rem auto;
+        text-align: center;
+        color: v.$blanco;
+        text-transform: uppercase;
+        font-size: 2.8rem;
+        @include m.tablet{
+            margin-top: 5rem;
+            font-size: 4rem;
+        }
     }
   }
 }
@@ -59,5 +59,5 @@
 
 // Header de cada página
 .header-inicio{
-  background-image: url("../img/header_inicio.jpg");
+    background-image: url("../img/header_inicio.jpg");
 }
