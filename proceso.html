@@ -1,10 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!doctype html>
+<html lang="es">
 
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cafeteria SASS</title><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Raleway:wght@400;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="build/css/app.css">
+    </head>
+
+    <body>
+        <header class="header header-proceso">
+            <div class="contenido-header">
+                <div class="barra">
+                    <div class="logo">
+                        <img src="build/img/logo.svg" alt="logo cafeteria">
+                    </div> <!-- .logo -->
+
+                    <nav class="nav-principal">
+                        <a href="index.html">Inicio</a>
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="proceso.html" class="activo">Proceso</a>
+                        <a href="menu.html">Menú</a>
+                        <a href="galeria.html">Galería</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav> <!-- .nav_principal -->
+                </div> <!-- .barra -->
+                <div class="texto-header">
+                    <h1>Los verdaderos expertos del café</h1>
+                </div><!-- .texto-header -->
+            </div> <!-- .contenido-header .contenedor -->
+        </header> <!-- .header .header-incio -->
+
+        <main class="contenedor contenido-principal">
+            <div class="proceso-cafe">
+                <div class="imagen">
+                    <img src="build/img/proceso_1.jpg" alt="Imagen del proceso">
+                </div><!-- .imagen -->
+
+                <div class="descripcion-proceso">
+                    <h3>Granos de Café</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eveniet expedita laborum
+                        neque quae quis reiciendis sint. A assumenda at labore odio, porro quia quo repellat. Cumque
+                        expedita ipsum quis.
+                    </p>
+                </div> <!-- .descripcion-proceso -->
+            </div>  <!-- .proceso-cafe -->
+
+            <div class="proceso-cafe">
+                <div class="imagen">
+                    <img src="build/img/proceso_2.jpg" alt="Imagen del proceso">
+                </div><!-- .imagen -->
+
+                <div class="descripcion-proceso">
+                    <h3>Tostar el Café</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eveniet expedita laborum
+                        neque quae quis reiciendis sint. A assumenda at labore odio, porro quia quo repellat. Cumque
+                        expedita ipsum quis.
+                    </p>
+                </div> <!-- .descripcion-proceso -->
+            </div>  <!-- .proceso-cafe -->
+
+            <div class="proceso-cafe">
+                <div class="imagen">
+                    <img src="build/img/proceso_3.jpg" alt="Imagen del proceso">
+                </div><!-- .imagen -->
+
+                <div class="descripcion-proceso">
+                    <h3>Empacar el Café</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eveniet expedita laborum
+                        neque quae quis reiciendis sint. A assumenda at labore odio, porro quia quo repellat. Cumque
+                        expedita ipsum quis.
+                    </p>
+                </div> <!-- .descripcion-proceso -->
+            </div>  <!-- .proceso-cafe -->
+
+            <div class="proceso-cafe">
+                <div class="imagen">
+                    <img src="build/img/proceso_4.jpg" alt="Imagen del proceso">
+                </div><!-- .imagen -->
+
+                <div class="descripcion-proceso">
+                    <h3>Moler granos de Café</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eveniet expedita laborum
+                        neque quae quis reiciendis sint. A assumenda at labore odio, porro quia quo repellat. Cumque
+                        expedita ipsum quis.
+                    </p>
+                </div> <!-- .descripcion-proceso -->
+            </div>  <!-- .proceso-cafe -->
+
+            <div class="proceso-cafe">
+                <div class="imagen">
+                    <img src="build/img/proceso_5.jpg" alt="Imagen del proceso">
+                </div><!-- .imagen -->
+
+                <div class="descripcion-proceso">
+                    <h3>Disfrutar de una taza de Café</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, eveniet expedita laborum
+                        neque quae quis reiciendis sint. A assumenda at labore odio, porro quia quo repellat. Cumque
+                        expedita ipsum quis.
+                    </p>
+                </div> <!-- .descripcion-proceso -->
+            </div>  <!-- .proceso-cafe -->
+        </main> <!-- .contenedor .contenido-principal -->
+
+        <footer class="footer">
+            <div class="contenedor contenido-footer bg-white">
+                <div class="footer-box ubicacion">
+                    <h3>Ubicación</h3>
+                    <p>Barrion Montecristo Calle 56 #100789</p>
+                    <p>Barranquilla, Colombia</p>
+                </div> <!-- .footer-box .ubicacion -->
+
+                <div class="footer-box reservacion">
+                    <h3>Reservación</h3>
+                    <p>Telefono: 318-654-0000</p>
+                    <a href="tel: +573186540000">Llamar</a>
+                </div><!-- .footer-box .reservacion -->
+
+                <div class="footer-box horario">
+                    <h3>Horario</h3>
+                    <p>Lunes - Jueves: 11:00 AM - 10:00 PM</p>
+                    <p>Viernes - Sabado: 9:00 AM - 11:30 PM</p>
+                    <p>Domingo: Cerrado</p>
+                </div> <!-- .footer-box .horario -->
+            </div> <!-- .contenedor -->
+            <p class="copyright">Todos los derechos reservados &copy: La cafetería</p>
+        </footer> <!-- .footer .contenido-footer -->
+    </body>
+
 </html>
