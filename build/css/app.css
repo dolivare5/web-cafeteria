@@ -830,7 +830,7 @@ h3 {
 .proceso-cafe:last-of-type {
   margin-bottom: 0;
 }
-.proceso-cafe:nth-child(even) .texto {
+.proceso-cafe:nth-child(even) .descripcion-proceso {
   order: -1;
 }
 .proceso-cafe .imagen, .proceso-cafe .descripcion-proceso {
