@@ -5,6 +5,7 @@ const sass = require('gulp-sass') (require('sass'));
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
+const cssnano = require('cssnano');
 
 // Imagenes
 
@@ -21,7 +22,7 @@ function css (done){
     src('src/scss/app.scss')
         .pipe( sourcemaps.init() )
         .pipe( sass())
-        .pipe( postcss([ autoprefixer() ]) )
+        .pipe( postcss([ autoprefixer(), cssnano() ]) )
         .pipe( sourcemaps.write('.') )
         .pipe( dest('build/css') );
     done();
