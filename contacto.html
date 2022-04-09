@@ -1,10 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!doctype html>
+<html lang="es">
 
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cafeteria SASS</title><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Raleway:wght@400;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="build/css/app.css">
+    </head>
+
+    <body>
+        <header class="header header-contacto">
+            <div class="contenido-header">
+                <div class="barra">
+                    <div class="logo">
+                        <img src="build/img/logo.svg" alt="logo cafeteria">
+                    </div> <!-- .logo -->
+
+                    <nav class="nav-principal">
+                        <a href="index.html">Inicio</a>
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="proceso.html">Proceso</a>
+                        <a href="menu.html">Menú</a>
+                        <a href="galeria.html">Galería</a>
+                        <a href="contacto.html" class="activo" >Contacto</a>
+                    </nav> <!-- .nav_principal -->
+                </div> <!-- .barra -->
+                <div class="texto-header">
+                    <h1>Mejores granos, mejor café</h1>
+                </div><!-- .texto-header -->
+            </div> <!-- .contenido-header .contenedor -->
+        </header> <!-- .header .header-incio -->
+
+        <main class="contenedor contenido-principal">
+            <h2><span>Reserva tu</span>Mesa</h2>
+            <div class="contenido-contacto">
+                <form action="" class="formulñario">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="" id="nombre" placeholder="Ingrese aquí su nombre completo">
+                    </div><!-- .campo -->
+
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input type="email" name="" id="email" placeholder="Ingrese aquí su email">
+                    </div><!-- .campo -->
+
+                    <div class="campo">
+                        <label for="">Número de personas:</label>
+
+                        <select id="">
+                            <option value="" disabled selected>-- Seleccione --</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="mas">+5</option>
+                        </select>
+                    </div><!-- .campo -->
+
+                    <div class="campo">
+                        <label for="hora">Hora:</label>
+                        <input type="time" name="" id="hora">
+                    </div><!-- .campo -->
+
+                    <div class="campo">
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" name="" id="fecha">
+                    </div><!-- .campo -->
+                    
+                    <div class="campo">
+                        <input type="submit" value="Reservar mesa">
+                    </div> <!-- .campo -->
+                </form>
+            </div> <!-- .contenido-contacto -->
+        </main> <!-- .contenedor .contenido-principal -->
+
+        <footer class="footer">
+            <div class="contenedor contenido-footer bg-white">
+                <div class="footer-box ubicacion">
+                    <h3>Ubicación</h3>
+                    <p>Barrion Montecristo Calle 56 #100789</p>
+                    <p>Barranquilla, Colombia</p>
+                </div> <!-- .footer-box .ubicacion -->
+
+                <div class="footer-box reservacion">
+                    <h3>Reservación</h3>
+                    <p>Telefono: 318-654-0000</p>
+                    <a href="tel: +573186540000">Llamar</a>
+                </div><!-- .footer-box .reservacion -->
+
+                <div class="footer-box horario">
+                    <h3>Horario</h3>
+                    <p>Lunes - Jueves: 11:00 AM - 10:00 PM</p>
+                    <p>Viernes - Sabado: 9:00 AM - 11:30 PM</p>
+                    <p>Domingo: Cerrado</p>
+                </div> <!-- .footer-box .horario -->
+            </div> <!-- .contenedor -->
+            <p class="copyright">Todos los derechos reservados &copy: La cafetería</p>
+        </footer> <!-- .footer .contenido-footer -->
+    </body>
+
 </html>
