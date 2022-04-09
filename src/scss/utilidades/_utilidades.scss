@@ -1,4 +1,4 @@
-@use "variables" as v;
+@use "src/scss/base/variables" as v;
 
 .text-center{
   text-align: center;
@@ -14,4 +14,8 @@
 
 .bg-white{
   background-color: v.$blanco;
+}
+
+.pd-bt-0{
+  padding-bottom: 0;
 }

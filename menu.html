@@ -1,10 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!doctype html>
+<html lang="es">
 
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cafeteria SASS</title><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Raleway:wght@400;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="build/css/app.css">
+    </head>
+
+    <body>
+        <header class="header header-menu">
+            <div class="contenido-header">
+                <div class="barra">
+                    <div class="logo">
+                        <img src="build/img/logo.svg" alt="logo cafeteria">
+                    </div> <!-- .logo -->
+
+                    <nav class="nav-principal">
+                        <a href="index.html">Inicio</a>
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="proceso.html">Proceso</a>
+                        <a href="menu.html" class="activo">Menú</a>
+                        <a href="galeria.html">Galería</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav> <!-- .nav_principal -->
+                </div> <!-- .barra -->
+                <div class="texto-header">
+                    <h1>Disfruta nuestro delicioso menú</h1>
+                </div><!-- .texto-header -->
+            </div> <!-- .contenido-header .contenedor -->
+        </header> <!-- .header .header-incio -->
+
+        <main class="contenedor contenido-principal pd-bt-0">
+            <h2><span>Utilizamos los</span>mejores ingredientes</h2>
+
+            <div class="contenido-menu">
+                <div class="texto">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium consequuntur
+                        corporis dignissimos distinctio doloremque eius, fuga fugiat impedit nam natus quas quia quis,
+                        quisquam repellat sit veniam voluptate fuga fugiat impedit nam natus quas quia quis,
+                        quisquam repellat sit veniam voluptate consectetur adipisicing elit. Ab accusamus accusantium
+                        corporis dignissimos distinctio.
+                    </p>
+                </div> <!-- .texto -->
+            </div> <!-- .contenido-menu -->
+        </main> <!-- .contenedor .contenido-principal -->
+
+        <section class="nuestro-menu">
+            <h2 class="heading-blanco"><span>Nuestro delicioso</span> Menú</h2>
+            <div class="contenedor grid-menu">
+                <section class="menu cafe">
+                    <h3>Café</h3>
+
+                    <ul>
+                        <li>
+                            <p>Café Latte <span>Café Espresso con leche caliente evaporada</span> </p>
+                            <p class="precio">$25</p>
+                        </li>
+                        <li>
+                            <p>Café Mocha <span>Espresso con crema batida</span> </p>
+                            <p class="precio">$30</p>
+                        </li>
+                        <li>
+                            <p>Café Americano <span>Café Negro</span> </p>
+                            <p class="precio">$30</p>
+                        </li>
+                        <li>
+                            <p>Capuccino<span>Espresso con una capa suave de espuma</span> </p>
+                            <p class="precio">$25</p>
+                        </li>
+                        <li>
+                            <p>Café Mocha Frio<span>Espresso, dulce con mocha y leche.</span> </p>
+                            <p class="precio">$29</p>
+                        </li>
+                        <li>
+                            <p>Mocha Frio Quemado<span>Espresso, hielo, con azucar quemada y mantequilla.</span> </p>
+                            <p class="precio">$35</p>
+                        </li>
+                        <li>
+                            <p>Latte con Caramelo<span>Espresso, leche y caramelo.</span> </p>
+                            <p class="precio">$39</p>
+                        </li>
+                    </ul>
+
+                </section> <!-- .menu .cafe -->
+
+                <section class="menu comida">
+                    <h3>Comida</h3>
+
+                    <ul>
+                        <li>
+                            <p>Baguette de Pollo <span>Delicioso Baguette con pollo a la plancha</span> </p>
+                            <p class="precio">$45</p>
+                        </li>
+                        <li>
+                            <p>Baguette Pollo y Queso <span>Baguette combinado con Pollo y Queso Manchego</span> </p>
+                            <p class="precio">$50</p>
+                        </li>
+                        <li>
+                            <p>Baguette con Tocino<span>Baguette con especias y verduras, además de tocino</span> </p>
+                            <p class="precio">$50</p>
+                        </li>
+                        <li>
+                            <p>Baguette de Jamón<span>Delicioso Baguette con Jamón y Especias</span> </p>
+                            <p class="precio">$65</p>
+                        </li>
+                        <li>
+                            <p>Baguette con Jamón, Queso y Tocino<span>El especial de la casa</span> </p>
+                            <p class="precio">$69</p>
+                        </li>
+                        <li>
+                            <p>Sandwich de Pollo<span>Delicioso sandwich con Pollo y especies</span> </p>
+                            <p class="precio">$65</p>
+                        </li>
+                        <li>
+                            <p>Sandwich de Jamón y queso<span>Queso Amarillo con Jamón y Queso</span> </p>
+                            <p class="precio">$59</p>
+                        </li>
+                    </ul>
+
+                </section> <!-- .menu .comida -->
+            </div><!-- .contenedor.grid-menu -->
+
+        </section> <!-- .nuestro-menu -->
+
+        <footer class="footer">
+            <div class="contenedor contenido-footer bg-white">
+                <div class="footer-box ubicacion">
+                    <h3>Ubicación</h3>
+                    <p>Barrion Montecristo Calle 56 #100789</p>
+                    <p>Barranquilla, Colombia</p>
+                </div> <!-- .footer-box .ubicacion -->
+
+                <div class="footer-box reservacion">
+                    <h3>Reservación</h3>
+                    <p>Telefono: 318-654-0000</p>
+                    <a href="tel: +573186540000">Llamar</a>
+                </div><!-- .footer-box .reservacion -->
+
+                <div class="footer-box horario">
+                    <h3>Horario</h3>
+                    <p>Lunes - Jueves: 11:00 AM - 10:00 PM</p>
+                    <p>Viernes - Sabado: 9:00 AM - 11:30 PM</p>
+                    <p>Domingo: Cerrado</p>
+                </div> <!-- .footer-box .horario -->
+            </div> <!-- .contenedor -->
+            <p class="copyright">Todos los derechos reservados &copy: La cafetería</p>
+        </footer> <!-- .footer .contenido-footer -->
+    </body>
+
 </html>

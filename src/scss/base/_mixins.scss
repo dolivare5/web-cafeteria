@@ -6,6 +6,12 @@
   }
 }
 
+@mixin telefono-mediano {
+  @media (min-width: v.$telefono-mediano){
+    @content;
+  }
+}
+
 @mixin tablet {
   @media (min-width: v.$tablet){
       @content;

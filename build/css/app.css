@@ -427,22 +427,6 @@ h3 {
   font-size: 3.2rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-primario {
-  background-color: #5E311E;
-}
-
-.m-neg-10 {
-  margin-top: -10rem;
-}
-
-.bg-white {
-  background-color: #FFFFFF;
-}
-
 .header {
   padding: 5rem 0;
   position: relative;
@@ -512,6 +496,10 @@ h3 {
 
 .header-proceso {
   background-image: url("../img/header_proceso.jpg");
+}
+
+.header-menu {
+  background-image: url("../img/header_menu.jpg");
 }
 
 .nav-principal {
@@ -862,4 +850,50 @@ h3 {
   width: 50%;
   height: 5px;
   background-color: #C39C63;
+}
+
+.contenido-menu {
+  background-image: url("../img/cafe.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  aspect-ratio: 1.9/5;
+}
+@media (min-width: 400px) {
+  .contenido-menu {
+    aspect-ratio: 0.45/1;
+  }
+}
+@media (min-width: 768px) {
+  .contenido-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    aspect-ratio: 3/2;
+    background-size: 54%;
+    background-position: bottom right;
+  }
+}
+.contenido-menu .texto p {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #5E311E;
+}
+
+.m-neg-10 {
+  margin-top: -10rem;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.pd-bt-0 {
+  padding-bottom: 0;
 }
